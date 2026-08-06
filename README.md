@@ -86,7 +86,7 @@ Examples include:
 ![alt text](<images/correlation heatmap.png>)
 
 ---
-## Correlation Heatmap
+## Weekely Distance Histogram
 ![alt text](<images/weekly distance histogram.png>)
 ---
 
