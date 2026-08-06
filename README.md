@@ -19,6 +19,10 @@ As a marathon runner, I wanted to answer a simple question:
 Rather than relying on intuition alone, I explored whether machine learning models could identify relationships between historical training volume, consistency, and physiological metrics.
 
 ---
+## Pipeline
+![alt text](images/workflow.png)
+
+---
 
 ## Dataset
 
@@ -54,6 +58,8 @@ The preprocessing pipeline included:
 - Converting timestamps to datetime
 - Converting numeric columns to appropriate data types
 
+
+
 ---
 
 ## Feature Engineering
@@ -73,6 +79,17 @@ Examples include:
 - Average training load (previous 28 days)
 - Number of runs in previous 28 days
 - Days since previous run
+
+
+---
+## Correlation Heatmap
+![alt text](<images/correlation heatmap.png>)
+
+---
+## Correlation Heatmap
+![alt text](<images/weekly distance histogram.png>)
+---
+
 
 ### Preventing Data Leakage
 
@@ -109,6 +126,15 @@ Model performance was evaluated using:
 Although predictive performance remains modest, the project demonstrates the complete workflow of developing, evaluating, and improving machine learning models using real-world fitness data.
 
 One important finding was that removing data leakage significantly reduced model performance, highlighting the importance of proper feature engineering and evaluation.
+
+
+---
+## Predicted vs Actual 
+![alt text](images/predicted_vs_actual.png)
+
+---
+## Feature Importance
+ ![alt text](images/feature_importance.png)
 
 ---
 
